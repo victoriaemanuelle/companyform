@@ -1,0 +1,168 @@
+
+.modal.o_technical_modal .modal-content {
+    border-radius: 0;
+}
+.modal.o_technical_modal .modal-content {
+    border-radius: 0;
+}
+
+.modal-content {
+    max-height: 100%;
+}
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: orange;
+    border-radius: 0;
+    outline: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+folha de estilos de agente de usuário
+div {
+    display: block;
+}
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 0.5rem;
+    pointer-events: none;
+}
+.o_web_client {
+    direction: ltr;
+    position: relative;
+    background-color: #f6f7fa;
+}
+body {
+    margin: 0;
+    font-family: "Roboto", "Odoo Unicode Support Noto", sans-serif;
+    font-size: 1.08333333rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #444B5A;
+    text-align: left;
+    background-color: #8f8f8f;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #626774;
+    --gray-dark: #272E3F;
+    --o-cc5-btn-secondary-border: ;
+    --o-cc5-btn-secondary: #F6F6F6;
+    --o-cc5-btn-primary-border: ;
+    --o-cc5-btn-primary: ;
+    --o-cc5-link: ;
+    --o-cc5-h6: ;
+    --o-cc5-h5: ;
+    --o-cc5-h4: ;
+    --o-cc5-h3: ;
+    --o-cc5-h2: ;
+    --o-cc5-headings: #FFFFFF;
+    --o-cc5-text: ;
+    --o-cc5-bg: #383E45;
+    --o-cc4-btn-secondary-border: ;
+    --o-cc4-btn-secondary: #F6F6F6;
+    --o-cc4-btn-primary-border: ;
+    --o-cc4-btn-primary: #383E45;
+    --o-cc4-link: #383E45;
+    --o-cc4-h6: ;
+    --o-cc4-h5: ;
+    --o-cc4-h4: ;
+    --o-cc4-h3: ;
+    --o-cc4-h2: ;
+    --o-cc4-headings: ;
+    --o-cc4-text: ;
+    --o-cc4-bg: #35979c;
+    --o-cc3-btn-secondary-border: ;
+    --o-cc3-btn-secondary: #F6F6F6;
+    --o-cc3-btn-primary-border: ;
+    --o-cc3-btn-primary: ;
+    --o-cc3-link: ;
+    --o-cc3-h6: ;
+    --o-cc3-h5: ;
+    --o-cc3-h4: ;
+    --o-cc3-h3: ;
+    --o-cc3-h2: ;
+    --o-cc3-headings: ;
+    --o-cc3-text: ;
+    --o-cc3-bg: #685563;
+    --o-cc2-btn-secondary-border: ;
+    --o-cc2-btn-secondary: ;
+    --o-cc2-btn-primary-border: ;
+    --o-cc2-btn-primary: ;
+    --o-cc2-link: ;
+    --o-cc2-h6: ;
+    --o-cc2-h5: ;
+    --o-cc2-h4: ;
+    --o-cc2-h3: ;
+    --o-cc2-h2: ;
+    --o-cc2-headings: #35979c;
+    --o-cc2-text: ;
+    --o-cc2-bg: #F6F6F6;
+    --o-cc1-btn-secondary-border: ;
+    --o-cc1-btn-secondary: ;
+    --o-cc1-btn-primary-border: ;
+    --o-cc1-btn-primary: ;
+    --o-cc1-link: ;
+    --o-cc1-h6: ;
+    --o-cc1-h5: ;
+    --o-cc1-h4: ;
+    --o-cc1-h3: ;
+    --o-cc1-h2: ;
+    --o-cc1-headings: ;
+    --o-cc1-text: ;
+    --o-cc1-bg: #FFFFFF;
+    --o-color-5: #383E45;
+    --o-color-4: #FFFFFF;
+    --o-color-3: #F6F6F6;
+    --o-color-2: #685563;
+    --o-color-1: #35979c;
+    --primary: #017e84;
+    --secondary: #444B5A;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffac00;
+    --danger: #dc3545;
+    --light: #f6f7fa;
+    --dark: #091124;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Roboto", "Odoo Unicode Support Noto", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}

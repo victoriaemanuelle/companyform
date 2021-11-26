@@ -1,0 +1,96 @@
+<<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Odoo - Cotações</title>
+    <link type="image/x-icon" rel="shortcut icon" href="/web/static/img/favicon.ico">
+    <script async="" crossorigin="anonymous" src="https://edge.fullstory.com/s/fs.js"></script><script id="web.layout.odooscript" type="text/javascript">
+        var odoo = {
+            csrf_token: "08c32968a97c2eb863a4d1115d73726699d0c0d8o1669497027",
+            debug: "",
+        };
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="theme-color" content="#875A7B">
+    <link rel="icon" sizes="192x192" href="/web_enterprise/static/img/mobile-icons/android-192x192.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="/web_enterprise/static/img/mobile-icons/apple-152x152.png">
+    <meta name="msapplication-navbutton-color" content="#875A7B">
+    <meta name="msapplication-TileColor" content="#875A7B">
+    <meta name="msapplication-TileImage" content="/web_enterprise/static/img/mobile-icons/windows-144x144.png">
+    <script type="text/javascript">
+        odoo.__session_info__ = {"uid": 2, "is_system": true, "is_admin": true, "user_context": {"lang": "pt_BR", "tz": false, "uid": 2}, "db": "veracidade", "server_version": "15.0+e", "server_version_info": [15, 0, 0, "final", 0, "e"], "support_url": "https://www.odoo.com/help", "name": "fernanda", "username": "vickmanu9@gmail.com", "partner_display_name": "fernanda", "company_id": 1, "partner_id": 3, "web.base.url": "https://veracidade.odoo.com", "active_ids_limit": 20000, "profile_session": null, "profile_collectors": null, "profile_params": null, "max_file_upload_size": 134217728, "home_action_id": false, "cache_hashes": {"translations": "bc978fe4bc34a1f2b26c4f0e638d2b8f2c7fbb5e", "load_menus": "ceca1b97fb971a68ac973c991293c925057cf186288e135ed5b168e48076d0a4", "qweb": "685cbe798c304845d2f19dd7a3c1e85cd75d1482c08c5e59e7582560f811ab7d", "assets_discuss_public": "8deac4a3b0187e4d87e5aca171d22d11b3b84b29e0bdba7b27145c085e5dfe59"}, "currencies": {"6": {"symbol": "R$", "position": "before", "digits": [69, 2]}}, "user_companies": {"current_company": 1, "allowed_companies": {"1": {"id": 1, "name": "veracidade"}}}, "show_effect": "True", "display_switch_company_menu": false, "user_id": [2], "company_currency_id": 6, "companies_currency_id": {"1": 6}, "warning": "admin", "expiration_date": false, "expiration_reason": "trial", "web_tours": [], "tour_disable": false, "notification_type": "email", "map_box_token": false, "odoobot_initialized": true, "ocn_token_key": false, "fcm_project_id": false, "inbox_action": 114, "iap_company_enrich": false};
+        odoo.reloadMenus = () => fetch(`/web/webclient/load_menus/${odoo.__session_info__.cache_hashes.load_menus}`).then(res => res.json());
+        odoo.loadMenusPromise = odoo.reloadMenus();
+        odoo.loadTemplatesPromise = fetch(`/web/webclient/qweb/${odoo.__session_info__.cache_hashes.qweb}?bundle=web.assets_qweb`).then(doc => doc.text());
+        // Block to avoid leaking variables in the script scope
+        {
+            const { user_context,  cache_hashes } = odoo.__session_info__;
+            // Prefetch translations to speedup webclient. This is done in JS because link rel="prefetch"
+            // is not yet supported on safari.
+            fetch(`/web/webclient/translations/${cache_hashes.translations}?lang=${user_context.lang}`);
+        }
+    </script>
+    <link type="text/css" rel="stylesheet" href="/web/assets/78-4220747/web.assets_common.min.css" data-asset-bundle="web.assets_common" data-asset-version="4220747">
+    <link type="text/css" rel="stylesheet" href="/web/assets/79-4a661d1/web.assets_backend.min.css" data-asset-bundle="web.assets_backend" data-asset-version="4a661d1">
+    <script type="text/javascript" src="/web/assets/80-f40c6ae/web.assets_common.min.js" data-asset-bundle="web.assets_common" data-asset-version="f40c6ae"></script>
+    <script type="text/javascript" src="/web/assets/81-4461943/web.assets_backend.min.js" data-asset-bundle="web.assets_backend" data-asset-version="4461943"></script>
+    <script type="text/javascript" src="/web/assets/82-91f48e0/web.assets_backend_prod_only.min.js" data-asset-bundle="web.assets_backend_prod_only" data-asset-version="91f48e0"></script>
+<script type="text/javascript" src="https://veracidade.odoo.com/web/webclient/locale/pt_BR"></script><script async="" src="https://rs.fullstory.com/rec/integrations?OrgId=RRJ53"></script><script type="text/javascript" src="/partner_autocomplete/static/lib/jsvat.js"></script></head>
+<body>
+<div class="modal-content"><header class="modal-header"><h4 class="modal-title">Defina os dados da sua empresa</h4><button type="button" aria-label="Close" tabindex="-1" class="close">×</button></header><main class="modal-body o_act_window"><div class="o_action o_view_controller">
+  <div class="o_content"><div class="o_form_view o_form_editable"><div class="o_form_sheet_bg" data-command-category="app"><div class="clearfix position-relative o_form_sheet"><div class="o_field_image o_field_widget oe_avatar" aria-atomic="true" name="logo" data-original-title="" title=""><img class="img img-fluid" alt="Arquivo binário" src="https://veracidade.odoo.com/web/image?model=res.company&amp;id=1&amp;field=logo&amp;unique=26112021174936" border="1" name="logo">
+      
+          <div class="o_form_image_controls">
+              <button class="fa fa-pencil fa-lg float-left o_select_file_button" title="Editar" aria-label="Editar"></button>
+              <button class="fa fa-trash-o fa-lg float-right o_clear_file_button" title="Limpar" aria-label="Limpar"></button>
+
+              <span class="o_form_binary_progress">Enviando...</span>
+              
+  <div class="o_hidden_input_file " aria-atomic="true">
+      <form class="o_form_binary_form" method="post" enctype="multipart/form-data" action="/web/binary/upload">
+          <input type="hidden" name="csrf_token" value="0882490e3bab28f862913b8fc0da7dc4af0078bbo1669495772">
+          <input type="hidden" name="callback">
+          <input type="file" class="o_input_file" name="ufile" accept="image/*">
+          
+                  
+              
+      </form>
+      <iframe style="display: none"></iframe>
+  </div>
+
+          </div>
+      
+  </div><div class="oe_title"><label class="o_form_label" for="o_field_input_32" data-original-title="" title="">Nome da Empresa</label><h1><div class="o_field_partner_autocomplete dropdown open w-100 o_field_widget o_quick_editable o_required_modifier" name="name" placeholder="e.g. My Company"><input class="o_input" placeholder="e.g. My Company" type="text" autocomplete="off" id="o_field_input_32"></div></h1></div><div class="o_notebook" data-name="_default_"><div class="o_notebook_headers"><ul class="nav nav-tabs"><li class="nav-item"><a data-toggle="tab" disable_anchor="true" href="#notebook_page_33" class="nav-link active" role="tab">Informações Gerais</a></li></ul></div><div class="tab-content"><div class="tab-pane active" id="notebook_page_33"><div class="o_group"><table class="o_group o_inner_group o_group_col_6"><tbody><tr><td class="o_td_label"></td><td style="width: 100%;"></td></tr><tr><td class="o_td_label"><label class="o_form_label" for="o_field_input_34" data-original-title="" title="">Endereço</label></td><td style="width: 100%;"><div class="o_address_format"><input class="o_field_char o_field_widget o_quick_editable o_input o_address_street" name="street" placeholder="Endereço..." type="text" autocomplete="off" id="o_field_input_34"><input class="o_field_char o_field_widget o_quick_editable o_input o_address_street" name="street2" placeholder="Rua 2..." type="text" autocomplete="off" id="o_field_input_43" data-original-title="" title=""><input class="o_field_char o_field_widget o_quick_editable o_input o_address_city" name="city" placeholder="Cidade" type="text" autocomplete="off" id="o_field_input_44" data-original-title="" title=""><div class="o_field_widget o_field_many2one o_quick_editable o_address_state" aria-atomic="true" name="state_id" placeholder="Estado" data-original-title="" title="">
+      <div class="o_field_many2one_selection">
+          <div class="o_input_dropdown">
+              <input type="text" class="o_input ui-autocomplete-input" placeholder="E﻿s﻿t﻿a﻿d﻿o" autocomplete="off" id="o_field_input_45">
+              <a role="button" class="o_dropdown_button" draggable="false"></a>
+          </div>
+          
+      </div>
+      <div class="o_field_many2one_extra"></div>
+  </div><input class="o_field_char o_field_widget o_quick_editable o_input o_address_zip" name="zip" placeholder="CEP" type="text" autocomplete="off" id="o_field_input_46" data-original-title="" title=""><div class="o_field_widget o_field_many2one o_quick_editable o_address_country" aria-atomic="true" name="country_id" placeholder="País" data-original-title="" title="">
+      <div class="o_field_many2one_selection">
+          <div class="o_input_dropdown">
+              <input type="text" class="o_input ui-autocomplete-input" placeholder="P﻿a﻿í﻿s" autocomplete="off" id="o_field_input_47">
+              <a role="button" class="o_dropdown_button" draggable="false"></a>
+          </div>
+          
+      </div>
+      <div class="o_field_many2one_extra"></div>
+  </div></div></td></tr><tr><td class="o_td_label"><label class="o_form_label" for="o_field_input_35" data-original-title="" title="">ID do Imposto</label></td><td style="width: 100%;"><div class="o_field_partner_autocomplete dropdown open w-100 o_field_widget o_quick_editable" name="vat"><input class="o_input" placeholder="" type="text" autocomplete="off" id="o_field_input_35"></div></td></tr><tr><td class="o_td_label"><label class="o_form_label" for="o_field_input_36" data-original-title="" title="">Registro da Empresa</label></td><td style="width: 100%;"><input class="o_field_char o_field_widget o_quick_editable o_input" name="company_registry" placeholder="" type="text" autocomplete="off" id="o_field_input_36"></td></tr><tr><td class="o_td_label"></td><td style="width: 100%;"></td></tr><tr><td class="o_td_label"></td><td style="width: 100%;"></td></tr><tr><td class="o_td_label"><label class="o_form_label o_required_modifier" for="o_field_input_37" data-original-title="" title="">Moeda</label></td><td style="width: 100%;"><div class="o_field_widget o_field_many2one o_quick_editable o_required_modifier" aria-atomic="true" name="currency_id">
+      <div class="o_field_many2one_selection">
+          <div class="o_input_dropdown">
+              <input type="text" class="o_input ui-autocomplete-input" autocomplete="off" id="o_field_input_37">
+              <a role="button" class="o_dropdown_button" draggable="false"></a>
+          </div>
+          
+      </div>
+      <div class="o_field_many2one_extra"></div>
+  </div></td></tr></tbody></table><table class="o_group o_inner_group o_group_col_6"><tbody><tr><td class="o_td_label"><label class="o_form_label" for="o_field_input_38" data-original-title="" title="">Telefone</label></td><td style="width: 100%;"><input class="o_field_char o_field_widget o_quick_editable o_input o_force_ltr" name="phone" placeholder="" type="text" autocomplete="off" id="o_field_input_38"></td></tr><tr><td class="o_td_label"><label class="o_form_label" for="o_field_input_39" data-original-title="" title="">Celular</label></td><td style="width: 100%;"><input class="o_field_char o_field_widget o_quick_editable o_input o_force_ltr" name="mobile" placeholder="" type="text" autocomplete="off" id="o_field_input_39"></td></tr><tr><td class="o_td_label"><label class="o_form_label" for="o_field_input_40" data-original-title="" title="">E-mail</label></td><td style="width: 100%;"><input class="o_field_char o_field_widget o_quick_editable o_input" name="email" placeholder="" type="text" autocomplete="off" id="o_field_input_40"></td></tr><tr><td class="o_td_label"><label class="o_form_label" for="o_field_input_41" data-original-title="" title="">Site</label></td><td style="width: 100%;"><input class="o_field_url o_field_widget o_quick_editable o_input" name="website" placeholder="por exemplo, https://www.seusite.com" type="text" autocomplete="off" id="o_field_input_41"></td></tr><tr><td class="o_td_label"></td><td style="width: 100%;"></td></tr><tr><td class="o_td_label"></td><td style="width: 100%;"></td></tr><tr><td class="o_td_label"></td><td style="width: 100%;"></td></tr></tbody></table></div></div></div></div></div></div></div></div>
+</div></main><footer class="modal-footer"><div><footer><button type="button" name="action_save_onboarding_company_step" class="btn btn btn-primary" data-hotkey="q"><span>Aplicar</span></button><button type="button" special="cancel" data-hotkey="z" class="btn btn-secondary"><span>Cancelar</span></button></footer></div></footer></div>
+</body>
+</html>
